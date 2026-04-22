@@ -1,4 +1,4 @@
-# 12 Fullstack
+# Fullstack
 
 A comprehensive learning project and roadmap for fullstack development using the MERN stack with TypeScript.
 
@@ -9,17 +9,22 @@ This repository serves as a personal learning journey through fullstack developm
 ## Project Structure
 
 ### Root Files
+
 - `mern-ts-roadmap.html` - The main roadmap document outlining the learning path
 - `.gitignore` - Git ignore rules for the project
 - `README.md` - This file
 
 ### 01 vite/
+
 Contains Vite.js setup and practice projects:
+
 - `01-setup-vite/` - Basic Vite setup with React and TypeScript
 - `02-practice/` - Practice exercises and examples
 
 ### my-notes/
+
 Organized collection of learning notes and documentation:
+
 - `api-testing/` - API testing methodologies and tools
 - `automation-testing/` - Automated testing frameworks
   - `playwright-automation/` - Playwright testing notes
@@ -45,12 +50,14 @@ Organized collection of learning notes and documentation:
 ## Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd "12 Fullstack"
    ```
 
 2. **For Vite projects**
+
    ```bash
    cd "01 vite/01-setup-vite"
    pnpm install
@@ -74,6 +81,7 @@ Organized collection of learning notes and documentation:
 ## Contributing
 
 This is a personal learning repository, but feel free to:
+
 - Add new notes and examples
 - Improve existing documentation
 - Share additional resources
