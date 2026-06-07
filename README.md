@@ -1,3 +1,7 @@
+# A Future
+
+> I am the creator of my future. Thank you God for this life, family, friends, education and Intelligence.
+
 # Fullstack
 
 A comprehensive learning project and roadmap for fullstack development using the MERN stack with TypeScript.
@@ -190,3 +194,5 @@ PROJECTS/
 ## License
 
 This project is for personal learning purposes.
+
+> > > > > > > 2d8c05cccd1fc52dc79be95ada87972a8cf4b15e
