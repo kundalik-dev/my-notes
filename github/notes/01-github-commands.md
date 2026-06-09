@@ -33,8 +33,12 @@
 | `git log --oneline --graph` | Visual branch graph in terminal                              |
 | `git diff`                  | Show unstaged changes                                        |
 | `git diff --staged`         | Show staged changes before committing                        |
-| `git show <commit>`         | Show details of a specific commit                            |
-| `git blame <file>`          | Show who changed each line in a file                         |
+| `git show <commit>`                        | Show details of a specific commit                            |
+| `git blame <file>`                         | Show who changed each line in a file                         |
+| `git log <branch-a>..<branch-b> --oneline` | Commits in branch-b that branch-a is missing                 |
+| `git log main..qa-practice --oneline`      | Commits in qa-practice that main doesn't have                |
+| `git diff main..qa-practice --name-only`   | Files that differ between two branches (file names only)     |
+| `git diff main..qa-practice`               | Full file-level diff between two branches                    |
 
 ---
 
