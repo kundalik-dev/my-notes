@@ -84,6 +84,7 @@
 | `git pull --allow-unrelated-histories` | Merge repos with no common history                |
 | `git fetch`                            | Download remote changes without merging           |
 | `git fetch --all`                      | Fetch all remotes                                 |
+| `git fetch --prune`                    | Fetch and remove local refs to deleted remote branches |
 
 ---
 
