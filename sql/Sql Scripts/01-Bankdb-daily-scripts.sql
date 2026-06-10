@@ -15,16 +15,26 @@ Select TABLE_NAME, COLUMN_NAME, ORDINAL_POSITION, COLUMN_DEFAULT, IS_NULLABLE, D
 from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = 'Loans';
 
 
---=============================Practice 08/06/2026 ===================================================
--- Q1 
-Select c.FirstName +' '+ c.LastName as fullName ,c.Mobile from Customers c;
--- Q2
-Select * from Customers where BranchID = 45;
--- Q3
-Select * from AccountDetails where AccountType = 'Savings';
--- Q4 
-Select * from Transactions where TransactionType ='Credit';
-Select sum(Amount) from Transactions where TransactionType = 'Credit';
--- Q5
-Select * from Customers where Email is null;
-Select sum(customerId) from Customers where Email is null;
+--=============================Practice 08/June/2026 ===================================================
+-- Select => * , colnames
+-- Order By => ASC, DESC
+-- Where => AND, OR
+-- TOP
+-- DISTINCT
+-- PERCENT
+-- COUNT
+-- LIKE
+-- AS => Alias
+-- 
+--=============================Practice 09/June/2026 ===================================================
+-- WILDCARD
+-- BETWEEN
+-- NOT BETWEEN
+-- IN
+-- NOT IN
+
+-- IN
+select * from customers where customerid in(1,10);
+select * from Customers where CustomerID between 1 AND 10;
+
+ 
