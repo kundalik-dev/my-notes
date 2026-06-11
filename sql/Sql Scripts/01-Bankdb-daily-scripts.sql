@@ -1,5 +1,6 @@
+--=============================Practice BankDb ===================================================
 USE BANKDB;
-
+--================================================================================
 select * from Loans;
 
 Select * from Branches;
@@ -48,3 +49,5 @@ select * from Customers where CustomerID between 1 AND 10;
 -- UNION ALL => Fast, combine all records from two or more select statements including duplicates.
 --        => Remember CurrentCustomer and ArchiveCustomer tables example
 -- DROP => Delete entire table
+
+--=============================Practice 11/June/2026 ===================================================
