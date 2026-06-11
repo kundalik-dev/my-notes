@@ -1,5 +1,6 @@
+--=============================Practice BankDb ===================================================
 USE BANKDB;
-
+--================================================================================
 select * from Loans;
 
 Select * from Branches;
@@ -15,16 +16,38 @@ Select TABLE_NAME, COLUMN_NAME, ORDINAL_POSITION, COLUMN_DEFAULT, IS_NULLABLE, D
 from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = 'Loans';
 
 
---=============================Practice 08/06/2026 ===================================================
--- Q1 
-Select c.FirstName +' '+ c.LastName as fullName ,c.Mobile from Customers c;
--- Q2
-Select * from Customers where BranchID = 45;
--- Q3
-Select * from AccountDetails where AccountType = 'Savings';
--- Q4 
-Select * from Transactions where TransactionType ='Credit';
-Select sum(Amount) from Transactions where TransactionType = 'Credit';
--- Q5
-Select * from Customers where Email is null;
-Select sum(customerId) from Customers where Email is null;
+--=============================Practice 08/June/2026 ===================================================
+-- Select => * , colnames
+-- Order By => ASC, DESC
+-- Where => AND, OR
+-- TOP
+-- DISTINCT
+-- PERCENT
+-- COUNT
+-- LIKE
+-- AS => Alias
+-- 
+--=============================Practice 09/June/2026 ===================================================
+-- WILDCARD
+-- BETWEEN
+-- NOT BETWEEN
+-- IN
+-- NOT IN
+ 
+select * from customers where customerid in(1,10);
+select * from Customers where CustomerID between 1 AND 10;
+
+--=============================Practice 10/June/2026 ===================================================
+-- INSERT INTO => using column name with values 
+--             => without column names with values only
+-- UPDATE => remember to use where clause otherwise it will update all the records in the table
+-- DELETE => Single Delete OR Full Table data delete by keeping table schema
+--        => Remember to use where clause otherwise it will delete all the records in the table
+-- SELECT INTO => Create a new table and insert the data into it from another table
+-- ALIAS => Column Alias, Table Alias
+-- UNION => Slow, combine unique records from two or more select statements.
+-- UNION ALL => Fast, combine all records from two or more select statements including duplicates.
+--        => Remember CurrentCustomer and ArchiveCustomer tables example
+-- DROP => Delete entire table
+
+--=============================Practice 11/June/2026 ===================================================
