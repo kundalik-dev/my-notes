@@ -51,3 +51,14 @@ select * from Customers where CustomerID between 1 AND 10;
 -- DROP => Delete entire table
 
 --=============================Practice 11/June/2026 ===================================================
+Select
+	(select count(*) from Customers) as Cus,
+	(Select count(*) from Branches) as bran;
+
+
+
+
+
+
+
+
