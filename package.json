@@ -1,0 +1,19 @@
+{
+  "name": "my-notes",
+  "version": "1.0.0",
+  "description": "Kundalik jadhav notes - Automation testing interview",
+  "main": "index.js",
+  "scripts": {
+    "logic": "node logical-programs/javascript/02-reverse-number.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundalik-dev/my-notes.git"
+  },
+  "author": "kundalik-jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kundalik-dev/my-notes/issues"
+  },
+  "homepage": "https://github.com/kundalik-dev/my-notes#readme"
+}

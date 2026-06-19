@@ -33,9 +33,19 @@ const swapTwoNumsWithSingleStatment = (a, b) => {
 // swapTwoNumsWithMulDIv(-10, 40);
 
 // Swap two numbers in single statment
-swapTwoNumsWithSingleStatment(10, 20);
+// swapTwoNumsWithSingleStatment(10, 20);
+
+// Swap two nums by destructuring in javascript
+const swapTwoNums = (a, b) => {
+  console.log(`Before swaping a i ${a}, b is ${b}`);
+  [a, b] = [b, a];
+  console.log(`After swaping a i ${a}, b is ${b}`);
+};
+
+swapTwoNums(10, 20);
 
 /* 
 ## Rules for swaping
 - For mul and div swap one num should not be 0
+- In Java we dont have de-structure concept.
 */
